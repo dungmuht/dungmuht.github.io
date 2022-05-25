@@ -1,0 +1,21 @@
+ #background {
+    background-color: bisque;
+    position: fixed;
+    bottom: 0%;
+    width: 99%;
+    height: 150px;  
+}
+#icon {
+    position: fixed;
+    bottom: 60px;
+    width: 100px;
+    height: 80px;
+    margin: 10px;
+    float: left;
+}
+#player {
+    position: fixed;
+    bottom: 0%;
+    left: 35%;
+      
+}

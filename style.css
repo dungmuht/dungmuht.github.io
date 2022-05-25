@@ -1,0 +1,94 @@
+header {
+    text-align : center;
+}
+aside#back {
+    float: left;
+    width: 20%;
+    height: 700px;
+    background-color: blanchedalmond;
+}
+aside#left {
+    position: fixed;
+    width: 19.8%;
+    height: 500px;
+    background-color: blanchedalmond;
+    z-index: 100;
+}
+#left h2 {
+    text-align : center;
+    background-color: azure;
+}
+#left ul {
+    color: black;
+    list-style: none;
+}
+#left ul li {
+    line-height: 28px;
+}
+#left ul li a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    display: block;
+}
+#left ul li a:hover {
+    background: pink;
+}
+#list {
+    float: right;
+    width: 60%;
+    height: 700px;
+    background-color: beige;
+}
+#list h2 {
+    background-color: aquamarine;
+    text-align: center;
+    display: block;
+    height: 35px;
+}
+#list ul {
+    color: black;
+    list-style: none;
+}
+#list ul li a{
+    text-decoration: none;
+    margin: 20px;
+    display: block;
+}
+#list ul li a:hover {
+    text-decoration: none;
+    background: rgb(251, 248, 94);
+}
+aside#right {
+    float: right;
+    background-color: bisque;
+    width: 20%;
+    height: 700px;
+}
+#right h2 {
+    background-color: aliceblue;
+    text-align: center;
+    display: block;
+    height: 35px;
+
+}
+#right ul {
+    color: black;
+    list-style: none;
+}
+#right ul li {
+    line-height: 28px;
+}
+#right ul li a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    display: block;
+}
+#right ul li a:hover {
+    background: rgb(144, 230, 167);
+}
+#player {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    z-index: 200;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        
+        <header>
+            <a href="index.html"><img src="logo.png" width="40%" /></a>
+        </header>
+
+        <aside id="back">
+            <p>　</p>
+        </aside>
+
+        <aside id="left">
+            <h2>메뉴</h2>
+            <ul>
+                <li><a href="login.html">로그인</a></li>
+                <li><a href="register.html">회원가입</a></li>
+                <li><a href="error.html">결제 정보</a></li>
+                <li><a href="index_control.html">음악 컨트롤 창 보기</a></li>
+            </ul>
+        </aside>
+
+        <aside id="right">
+            <div id="download">
+                <h2>음원 다운로드</h2>
+                <ul>
+                    <li><a href="audio/뭐.mp3" download="뭐.mp3">🎵 뭐.mp3</a></li>
+                    <li><a href="audio/뭐4.mp3" download="뭐4.mp3">🎵 뭐4.mp3</a></li>
+                    <li><a href="audio/몰라.mp3" download="몰라.mp3">🎵 몰라.mp3</a></li>
+                    <li><a href="audio/nunun.mp3" download="nunun.mp3">🎵 nunun.mp3</a></li>
+                </ul>
+            </div>
+        </aside>
+
+        <section id="list">
+            <article>
+                <h2>음악을 선택하세요.</h2>
+                <ul>
+                    <li><a target="player" href="audio/player_what.html">🎵 뭐.mp3</a></li>
+                    <li><a target="player" href="audio/player_what4.html">🎵 뭐4.mp3</a></li>
+                    <li><a target="player" href="audio/player_idk.html">🎵 몰라.mp3</a></li>
+                    <li><a target="player" href="audio/player_nunun.html">🎵 nunun.mp3</a></li>
+                </ul>
+            </article>
+        </section>
+        <footer>
+            <iframe name="player" src="player.html" id="player"
+            width="100%" seamless 
+            frameborder=0 framespacing=0 marginheight=0 marginwidth=0 scrolling=no vspace=0></iframe>
+        </footer>
+    
+    </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <body>
+        <error style="background-color: rgb(208, 102, 20); width: 80%; height: 80%; position: fixed;
+        bottom: 10%; left: 10%; text-align : center; z-index: 300;">
+            <a href="index_control.html"><x style="background-color: rgb(220, 215, 215); position: absolute; top:0%; right: 0%; 
+            display: block; font-size: 20px; margin: 10px;">　X　</x></a>
+            <br />
+            <h1>오류! 로그인을 해 주세요!</h1>
+        </error>
+        <header>
+            <a href="index.html"><img src="logo.png" width="40%" /></a>
+        </header>
+
+        <aside id="left">
+            <h2>메뉴</h2>
+            <ul>
+                <li><a href="login.html">로그인</a></li>
+                <li><a href="register.html">회원가입</a></li>
+                <li><a href="purchase.html">결제 정보</a></li>
+                <li><a href="index.html">음악 컨트롤 창 숨기기</a></li>
+            </ul>
+        </aside>
+        <section id="list">
+            <article>
+                <h2>음악을 선택하세요.</h2>
+                <ul>
+                    <li><a target="player" href="audio/play_what.html">🎵 뭐.mp3</a></li>
+                    <li><a target="player" href="audio/play_what4.html">🎵 뭐4.mp3</a></li>
+                    <li><a target="player" href="audio/play_idk.html">🎵 몰라.mp3</a></li>
+                    <li><a target="player" href="audio/play_nunun.html">🎵 nunun.mp3</a></li>
+                </ul>
+            </article>
+        </section>
+
+        <aside id="right">
+            <div id="download">
+                <h2>음원 다운로드</h2>
+                <ul>
+                    <li><a href="audio/뭐.mp3" download="뭐.mp3">🎵 뭐.mp3</a></li>
+                    <li><a href="audio/뭐4.mp3" download="뭐4.mp3">🎵 뭐4.mp3</a></li>
+                    <li><a href="audio/몰라.mp3" download="몰라.mp3">🎵 몰라.mp3</a></li>
+                    <li><a href="audio/nunun.mp3" download="nunun.mp3">🎵 nunun.mp3</a></li>
+                </ul>
+            </div>
+        </aside>
+        <footer>
+            <iframe name="player" src="player.html" id="player"
+            width="100%" seamless 
+            frameborder=0 framespacing=0 marginheight=0 marginwidth=0 scrolling=no vspace=0></iframe>
+        </footer>
+    
+    </body>
+</html>
