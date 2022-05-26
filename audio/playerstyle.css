@@ -17,5 +17,15 @@
     position: fixed;
     bottom: 0%;
     left: 35%;
-      
+}
+#nowplay {
+    position: fixed;
+    bottom: 60px;
+    width: 100px;
+    height: 80px;
+    margin: 10px;
+    float: left;
+    background-color: aquamarine;
+    height: max-content;
+    padding: 10px;
 }
