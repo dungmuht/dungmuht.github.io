@@ -89,7 +89,8 @@ aside#right {
 #player {
     position: fixed;
     bottom: 0px;
-    left: 0px;
+    left: 0.5%;
+    width: 98.5%;
     border: 3px solid #1bf;
     border-radius: 0.5rem;
     z-index: 200;
