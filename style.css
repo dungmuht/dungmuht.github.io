@@ -90,5 +90,7 @@ aside#right {
     position: fixed;
     bottom: 0px;
     left: 0px;
+    border: 3px solid #1bf;
+    border-radius: 0.5rem;
     z-index: 200;
 }
