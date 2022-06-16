@@ -1,5 +1,5 @@
  #background {
-    background-color: bisque;
+    background-color: aliceblue;
     position: fixed;
     bottom: 0%;
     width: 100%;
@@ -7,11 +7,12 @@
 }
 #icon {
     position: fixed;
-    bottom: 60px;
+    bottom: 30px;
     width: 100px;
-    height: 80px;
+    height: 100px;
     margin: 10px;
     float: left;
+    border: 2px solid black;
 }
 #player {
     position: fixed;
@@ -25,7 +26,7 @@
     height: 80px;
     margin: 10px;
     float: left;
-    background-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0.562);
     height: max-content;
     padding: 10px;
 }
